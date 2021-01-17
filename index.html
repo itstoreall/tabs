@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tabs</title>
+   <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+   <div class="tabs" id="tabs-1">
+      <div class="controls"  data-controls>
+         <a href="#apple" class="controls__item">🍏 Яблоко</a>
+         <a href="#grapes" class="controls__item">🍇 Виноград</a>
+         <a href="#peach" class="controls__item">🍑 Персик</a>
+      </div>
+   
+      <div class="panes" data-panes>
+         <div class="pane" id="apple">
+            <h2 class="pane__fruit">🍏</h2>
+            <p class="pane__text"></p>
+         </div>
+
+         <div class="pane" id="apple">
+            <h2 class="pane__fruit">🍇</h2>
+            <p class="pane__text"></p>
+         </div>
+
+         <div class="pane" id="apple">
+            <h2 class="pane__fruit">🍑</h2>
+            <p class="pane__text"></p>
+         </div>
+      </div>
+   </div>
+
+   <script src="./app.js" type="module"></script>
+</body>
+</html>
