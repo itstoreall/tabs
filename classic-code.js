@@ -1,4 +1,4 @@
-// /* // Refactoring
+/* // Refactoring
 
 const refs = {
    controls: document.querySelector(`#tabs-1 [data-controls]`),
@@ -46,7 +46,7 @@ function getPaneById(id) {
    return refs.panes.querySelector(`#${id}`);
 };
 
-// */
+*/
 
 /* // Initial Code
 
